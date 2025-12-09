@@ -32,7 +32,7 @@ schema_get_file_content = types.FunctionDeclaration(
 
 schema_run_python_file = types.FunctionDeclaration(
     name="run_python_file",
-    description="Executes Python files with optional arguments.",
+    description="Executes a Python file. For example, you can say 'run tests.py' or 'execute main.py'.",
     parameters=types.Schema(
         type=types.Type.OBJECT,
         properties={
